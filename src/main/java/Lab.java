@@ -13,6 +13,10 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        int[] arr = {1, 2, 3, 4, 5};
+        for(int i = 0; i < 6; i++){
+            arr[i] += 1;
+            System.out.println(arr[i]);
+        }
     }
 }
